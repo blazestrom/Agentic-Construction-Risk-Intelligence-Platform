@@ -1,0 +1,34 @@
+# Agentic Construction Risk Intelligence Platform
+# Verified Dataset Configuration for YOLOv8
+path: c:/Users/piyus/OneDrive/Desktop/Infosys_spring_intern
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 25
+names:
+  0: Excavator
+  1: Gloves
+  2: Hardhat
+  3: Ladder
+  4: Mask
+  5: NO-Hardhat
+  6: NO-Mask
+  7: NO-Safety Vest
+  8: Person
+  9: SUV
+  10: Safety Cone
+  11: Safety Vest
+  12: bus
+  13: dump truck
+  14: fire hydrant
+  15: machinery
+  16: mini-van
+  17: sedan
+  18: semi
+  19: trailer
+  20: truck and trailer
+  21: truck
+  22: van
+  23: vehicle
+  24: wheel loader

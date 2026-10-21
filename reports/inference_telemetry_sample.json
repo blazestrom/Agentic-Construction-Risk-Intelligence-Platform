@@ -1,0 +1,303 @@
+{
+  "image_inference_samples": [
+    {
+      "source": "-4405-_png_jpg.rf.937688313347dbcd3b24201dd7882906.jpg",
+      "image_width": 416,
+      "image_height": 416,
+      "detections_count": 0,
+      "detections": [],
+      "inference_time_ms": 214.31,
+      "annotated_image_path": "reports\\inference_outputs\\detected_-4405-_png_jpg.rf.937688313347dbcd3b24201dd7882906.jpg"
+    },
+    {
+      "source": "000005_jpg.rf.c613c066b79795d219855aca269760e6.jpg",
+      "image_width": 400,
+      "image_height": 272,
+      "detections_count": 4,
+      "detections": [
+        {
+          "class_id": 8,
+          "class_name": "Person",
+          "category": "worker",
+          "confidence": 0.8003,
+          "bbox_xyxy": [
+            25.5,
+            60.4,
+            101.3,
+            220.7
+          ],
+          "bbox_normalized": [
+            0.1585,
+            0.5168,
+            0.1893,
+            0.5893
+          ],
+          "area_pixels": 12134.8
+        },
+        {
+          "class_id": 2,
+          "class_name": "Hardhat",
+          "category": "ppe_compliant",
+          "confidence": 0.7545,
+          "bbox_xyxy": [
+            31.8,
+            60.3,
+            101.2,
+            115.2
+          ],
+          "bbox_normalized": [
+            0.1662,
+            0.3226,
+            0.1736,
+            0.2019
+          ],
+          "area_pixels": 3812.1
+        },
+        {
+          "class_id": 6,
+          "class_name": "NO-Mask",
+          "category": "ppe_violation",
+          "confidence": 0.3355,
+          "bbox_xyxy": [
+            39.9,
+            120.3,
+            86.5,
+            145.1
+          ],
+          "bbox_normalized": [
+            0.158,
+            0.4879,
+            0.1165,
+            0.0911
+          ],
+          "area_pixels": 1155.3
+        },
+        {
+          "class_id": 6,
+          "class_name": "NO-Mask",
+          "category": "ppe_violation",
+          "confidence": 0.3255,
+          "bbox_xyxy": [
+            269.8,
+            126.1,
+            303.2,
+            153.7
+          ],
+          "bbox_normalized": [
+            0.7164,
+            0.5144,
+            0.0835,
+            0.1013
+          ],
+          "area_pixels": 920.2
+        }
+      ],
+      "inference_time_ms": 92.13,
+      "annotated_image_path": "reports\\inference_outputs\\detected_000005_jpg.rf.c613c066b79795d219855aca269760e6.jpg"
+    },
+    {
+      "source": "002551_jpg.rf.b09484b130c1587abfa8365c3d774bf1.jpg",
+      "image_width": 500,
+      "image_height": 333,
+      "detections_count": 9,
+      "detections": [
+        {
+          "class_id": 8,
+          "class_name": "Person",
+          "category": "worker",
+          "confidence": 0.9805,
+          "bbox_xyxy": [
+            145.8,
+            24.9,
+            278.5,
+            300.7
+          ],
+          "bbox_normalized": [
+            0.4243,
+            0.4889,
+            0.2655,
+            0.8281
+          ],
+          "area_pixels": 36607.0
+        },
+        {
+          "class_id": 8,
+          "class_name": "Person",
+          "category": "worker",
+          "confidence": 0.9224,
+          "bbox_xyxy": [
+            0.0,
+            33.3,
+            43.9,
+            122.4
+          ],
+          "bbox_normalized": [
+            0.0439,
+            0.2339,
+            0.0878,
+            0.2675
+          ],
+          "area_pixels": 3911.7
+        },
+        {
+          "class_id": 8,
+          "class_name": "Person",
+          "category": "worker",
+          "confidence": 0.8343,
+          "bbox_xyxy": [
+            68.9,
+            58.1,
+            104.5,
+            127.7
+          ],
+          "bbox_normalized": [
+            0.1733,
+            0.2789,
+            0.0711,
+            0.209
+          ],
+          "area_pixels": 2475.1
+        },
+        {
+          "class_id": 2,
+          "class_name": "Hardhat",
+          "category": "ppe_compliant",
+          "confidence": 0.756,
+          "bbox_xyxy": [
+            85.5,
+            58.6,
+            98.9,
+            67.7
+          ],
+          "bbox_normalized": [
+            0.1844,
+            0.1897,
+            0.0268,
+            0.0272
+          ],
+          "area_pixels": 121.6
+        },
+        {
+          "class_id": 2,
+          "class_name": "Hardhat",
+          "category": "ppe_compliant",
+          "confidence": 0.5924,
+          "bbox_xyxy": [
+            259.2,
+            13.7,
+            303.1,
+            56.5
+          ],
+          "bbox_normalized": [
+            0.5623,
+            0.1054,
+            0.0879,
+            0.1283
+          ],
+          "area_pixels": 1877.1
+        },
+        {
+          "class_id": 7,
+          "class_name": "NO-Safety Vest",
+          "category": "ppe_violation",
+          "confidence": 0.5673,
+          "bbox_xyxy": [
+            83.5,
+            71.6,
+            103.1,
+            95.8
+          ],
+          "bbox_normalized": [
+            0.1866,
+            0.2515,
+            0.039,
+            0.0727
+          ],
+          "area_pixels": 472.8
+        },
+        {
+          "class_id": 7,
+          "class_name": "NO-Safety Vest",
+          "category": "ppe_violation",
+          "confidence": 0.3134,
+          "bbox_xyxy": [
+            0.0,
+            48.4,
+            18.5,
+            84.5
+          ],
+          "bbox_normalized": [
+            0.0185,
+            0.1995,
+            0.037,
+            0.1085
+          ],
+          "area_pixels": 668.4
+        },
+        {
+          "class_id": 6,
+          "class_name": "NO-Mask",
+          "category": "ppe_violation",
+          "confidence": 0.3088,
+          "bbox_xyxy": [
+            266.9,
+            47.9,
+            288.3,
+            63.1
+          ],
+          "bbox_normalized": [
+            0.5551,
+            0.1665,
+            0.0428,
+            0.0457
+          ],
+          "area_pixels": 325.7
+        },
+        {
+          "class_id": 1,
+          "class_name": "Gloves",
+          "category": "ppe_compliant",
+          "confidence": 0.267,
+          "bbox_xyxy": [
+            138.0,
+            172.8,
+            169.0,
+            215.9
+          ],
+          "bbox_normalized": [
+            0.307,
+            0.5836,
+            0.062,
+            0.1292
+          ],
+          "area_pixels": 1333.8
+        }
+      ],
+      "inference_time_ms": 66.04,
+      "annotated_image_path": "reports\\inference_outputs\\detected_002551_jpg.rf.b09484b130c1587abfa8365c3d774bf1.jpg"
+    }
+  ],
+  "video_inference_summary": {
+    "source": "test_sample_video.mp4",
+    "total_video_frames": 45,
+    "processed_frames": 45,
+    "frame_stride": 1,
+    "video_fps": 15.0,
+    "processing_fps": 10.79,
+    "total_processing_seconds": 4.17,
+    "aggregate_detections": {
+      "NO-Mask": 15,
+      "Hardhat": 45,
+      "NO-Hardhat": 15,
+      "Person": 46,
+      "NO-Safety Vest": 30
+    },
+    "annotated_video_path": "reports\\inference_outputs\\annotated_test_sample_video.mp4"
+  },
+  "sample_first_frame_telemetry": {
+    "frame_index": 0,
+    "timestamp_ms": 0.0,
+    "detections_count": 0,
+    "detections": []
+  }
+}

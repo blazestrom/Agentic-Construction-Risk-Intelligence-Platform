@@ -1,0 +1,180 @@
+{
+  "model": "yolov8n.pt",
+  "epochs": 15,
+  "imgsz": 640,
+  "batch": 16,
+  "device": "cpu",
+  "train_duration_minutes": 36.89,
+  "checkpoints": {
+    "best": "C:\\Users\\piyus\\OneDrive\\Desktop\\Infosys_spring_intern\\models\\runs\\yolov8n_construction_safety\\weights\\best.pt",
+    "last": "C:\\Users\\piyus\\OneDrive\\Desktop\\Infosys_spring_intern\\models\\runs\\yolov8n_construction_safety\\weights\\last.pt"
+  },
+  "validation_metrics": {
+    "split": "val",
+    "precision": 0.5886,
+    "recall": 0.3779,
+    "mAP50": 0.4094,
+    "mAP50_95": 0.2768,
+    "per_class": {
+      "Excavator": {
+        "mAP50_95": 0.4422
+      },
+      "Gloves": {
+        "mAP50_95": 0.0413
+      },
+      "Hardhat": {
+        "mAP50_95": 0.486
+      },
+      "Ladder": {
+        "mAP50_95": 0.3384
+      },
+      "Mask": {
+        "mAP50_95": 0.5283
+      },
+      "NO-Hardhat": {
+        "mAP50_95": 0.2596
+      },
+      "NO-Mask": {
+        "mAP50_95": 0.1106
+      },
+      "NO-Safety Vest": {
+        "mAP50_95": 0.3
+      },
+      "Person": {
+        "mAP50_95": 0.5409
+      },
+      "SUV": {
+        "mAP50_95": 0.2768
+      },
+      "Safety Cone": {
+        "mAP50_95": 0.3806
+      },
+      "Safety Vest": {
+        "mAP50_95": 0.3819
+      },
+      "bus": {
+        "mAP50_95": 0.2768
+      },
+      "dump truck": {
+        "mAP50_95": 0.3916
+      },
+      "fire hydrant": {
+        "mAP50_95": 0.2768
+      },
+      "machinery": {
+        "mAP50_95": 0.2796
+      },
+      "mini-van": {
+        "mAP50_95": 0.0
+      },
+      "sedan": {
+        "mAP50_95": 0.0997
+      },
+      "semi": {
+        "mAP50_95": 0.2768
+      },
+      "trailer": {
+        "mAP50_95": 0.0995
+      },
+      "truck and trailer": {
+        "mAP50_95": 0.246
+      },
+      "truck": {
+        "mAP50_95": 0.0
+      },
+      "van": {
+        "mAP50_95": 0.2828
+      },
+      "vehicle": {
+        "mAP50_95": 0.1968
+      },
+      "wheel loader": {
+        "mAP50_95": 0.4081
+      }
+    }
+  },
+  "test_metrics": {
+    "split": "test",
+    "precision": 0.6856,
+    "recall": 0.3394,
+    "mAP50": 0.3948,
+    "mAP50_95": 0.2753,
+    "per_class": {
+      "Excavator": {
+        "mAP50_95": 0.6442
+      },
+      "Gloves": {
+        "mAP50_95": 0.0505
+      },
+      "Hardhat": {
+        "mAP50_95": 0.4307
+      },
+      "Ladder": {
+        "mAP50_95": 0.4425
+      },
+      "Mask": {
+        "mAP50_95": 0.4384
+      },
+      "NO-Hardhat": {
+        "mAP50_95": 0.1687
+      },
+      "NO-Mask": {
+        "mAP50_95": 0.0368
+      },
+      "NO-Safety Vest": {
+        "mAP50_95": 0.2946
+      },
+      "Person": {
+        "mAP50_95": 0.5366
+      },
+      "SUV": {
+        "mAP50_95": 0.2753
+      },
+      "Safety Cone": {
+        "mAP50_95": 0.1492
+      },
+      "Safety Vest": {
+        "mAP50_95": 0.3745
+      },
+      "bus": {
+        "mAP50_95": 0.2753
+      },
+      "dump truck": {
+        "mAP50_95": 0.5546
+      },
+      "fire hydrant": {
+        "mAP50_95": 0.2753
+      },
+      "machinery": {
+        "mAP50_95": 0.1851
+      },
+      "mini-van": {
+        "mAP50_95": 0.2753
+      },
+      "sedan": {
+        "mAP50_95": 0.0
+      },
+      "semi": {
+        "mAP50_95": 0.2753
+      },
+      "trailer": {
+        "mAP50_95": 0.0346
+      },
+      "truck and trailer": {
+        "mAP50_95": 0.0792
+      },
+      "truck": {
+        "mAP50_95": 0.2753
+      },
+      "van": {
+        "mAP50_95": 0.0006
+      },
+      "vehicle": {
+        "mAP50_95": 0.3229
+      },
+      "wheel loader": {
+        "mAP50_95": 0.4861
+      }
+    }
+  }
+}

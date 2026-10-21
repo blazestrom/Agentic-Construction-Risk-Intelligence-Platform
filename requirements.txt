@@ -1,0 +1,22 @@
+# Core Deep Learning & Computer Vision
+ultralytics>=8.2.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+PyYAML>=6.0
+
+# Backend & Web API
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.5.0
+python-multipart>=0.0.9
+
+# Database & Storage
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Testing & Quality
+pytest>=8.0.0
+httpx>=0.27.0

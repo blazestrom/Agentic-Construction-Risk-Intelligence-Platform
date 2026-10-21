@@ -1,0 +1,85 @@
+{
+  "real_image_assessment": {
+    "timestamp": "2026-10-19T08:35:29.178768+00:00",
+    "site_risk_score": 0,
+    "risk_level": "LOW",
+    "total_hazards_count": 0,
+    "severity_breakdown": {
+      "LOW": 0,
+      "MEDIUM": 0,
+      "HIGH": 0,
+      "CRITICAL": 0
+    },
+    "hazards": [],
+    "observed_facts_count": 4,
+    "formula_explanation": {
+      "formula": "min(100, round(sum(RuleBaseWeight_i * Confidence_i)))",
+      "scale": "0 to 100 (0-24: LOW, 25-49: MEDIUM, 50-74: HIGH, 75-100: CRITICAL)",
+      "critical_weights": "NO-Hardhat: 25, NO-Vest: 15, Proximity: 30, Compound Unprotected Proximity: 45",
+      "disclaimer": "This is an explainable decision-support indicator based on visual detection, not a certified structural or legal safety clearance."
+    }
+  },
+  "critical_scenario_assessment": {
+    "timestamp": "2026-10-19T08:35:29.178768+00:00",
+    "site_risk_score": 61,
+    "risk_level": "HIGH",
+    "total_hazards_count": 2,
+    "severity_breakdown": {
+      "LOW": 0,
+      "MEDIUM": 0,
+      "HIGH": 1,
+      "CRITICAL": 1
+    },
+    "hazards": [
+      {
+        "hazard_id": "HAZ-372B6E68",
+        "rule_id": "R01_NO_HARDHAT",
+        "rule_name": "Unprotected Head (Missing Hardhat)",
+        "severity": "HIGH",
+        "confidence": 0.82,
+        "observed_evidence": "Detected 'NO-Hardhat' with 82.0% confidence.",
+        "rationale": "Worker observed on site without mandatory hardhat / head protection.",
+        "recommended_action": "Instruct worker to immediately don an OSHA/ANSI-compliant hardhat before proceeding.",
+        "primary_box": [
+          120.0,
+          100.0,
+          180.0,
+          160.0
+        ],
+        "affected_entity": "Personnel without headgear",
+        "spatial_context": "Direct visual detection of missing hardhat"
+      },
+      {
+        "hazard_id": "HAZ-BD103FCC",
+        "rule_id": "R04_COMPOUND_PROXIMITY_NO_PPE",
+        "rule_name": "Critical Proximity with PPE Non-Compliance",
+        "severity": "CRITICAL",
+        "confidence": 0.91,
+        "observed_evidence": "Worker (conf: 0.88) observed adjacent to Excavator (conf: 0.94) with concurrent PPE non-compliance.",
+        "rationale": "Worker lacking required PPE (hardhat or vest) in close proximity to active heavy equipment.",
+        "recommended_action": "IMMEDIATE STOP WORK: Clear worker from machinery blind spot immediately and conduct safety briefing.",
+        "primary_box": [
+          100.0,
+          100.0,
+          200.0,
+          300.0
+        ],
+        "associated_box": [
+          180.0,
+          80.0,
+          500.0,
+          450.0
+        ],
+        "affected_entity": "Worker near Excavator",
+        "spatial_context": "Proximity index: 0.316 (spatial proximity threshold triggered)"
+      }
+    ],
+    "observed_facts_count": 3,
+    "formula_explanation": {
+      "formula": "min(100, round(sum(RuleBaseWeight_i * Confidence_i)))",
+      "scale": "0 to 100 (0-24: LOW, 25-49: MEDIUM, 50-74: HIGH, 75-100: CRITICAL)",
+      "critical_weights": "NO-Hardhat: 25, NO-Vest: 15, Proximity: 30, Compound Unprotected Proximity: 45",
+      "disclaimer": "This is an explainable decision-support indicator based on visual detection, not a certified structural or legal safety clearance."
+    }
+  }
+}
